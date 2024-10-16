@@ -1,0 +1,30 @@
+/* Basic Styles */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  li {
+    cursor: pointer;
+    margin: 5px 0;
+  }
+  
+  /* Folder and File Icons */
+  .folder::before {
+    content: "📁 ";
+  }
+  
+  .file::before {
+    content: "📄 ";
+  }
+  
+  /* Collapsible Folders */
+  .collapsed ul {
+    display: none;
+  }
+  
+  .folder {
+    font-weight: bold;
+  }
+  
+  
